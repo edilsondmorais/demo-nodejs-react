@@ -1,0 +1,16 @@
+# Build
+FROM node:18-alpine
+
+WORKDIR /app
+
+ENV PATH /app/node_modules/.bin:$PATH
+
+COPY . ./
+
+RUN yarn install --silent
+
+RUN yarn run build
+
+EXPOSE 3000
+
+CMD ["yarn", "start"]
