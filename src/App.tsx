@@ -9,7 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h1>[ DEVOPS ] App Demo With NodeJs and React</h1>
         <p>
-          "Agora vai DEVOPS \o/"
+          "1 - Agora vai DEVOPS \o/"
         </p>
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
