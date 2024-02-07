@@ -12,7 +12,6 @@ steps:
       - 'deploy'
       - 'demo-nodejs-react'
       - '--image=us-central1-docker.pkg.dev/test-devops-413420/images/demo-nodejs-react:1.0'
-      - '--update-env-vars=PORT=3000'
       - '--platform=managed'
       - '--region=us-central1'
       - '--allow-unauthenticated'
